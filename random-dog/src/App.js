@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Button from "./Components/Button/Button";
 import Image from "./Components/Image/Image";
-import List from "./Components/List/List";
-import ListItem from "./Components/ListItem/ListItem";
 import Text from "./Components/Text/Text";
 import Wrapper from "./UserInterface/Wrapper/Wrapper";
 import Card from "./UserInterface/Card/Card";
@@ -26,12 +24,14 @@ const findDog = () => {
 
   return (
     <Wrapper>
-    <Text>Find Dog Image</Text>
+      <Card className={classes.card}>
+    <Text className={classes.text}>Find Dog Image</Text>
     <br></br>
-    <Button onClick={findDog}>find dog</Button>
+    <Button className={classes.button} onClick={findDog}>find dog</Button>
     <br></br>
-    <Image width="200px" height="200px" src={dog.picture}>
+    <Image className={classes.image} width="350px" height="350px" src={dog.picture}>
     </Image>
+    </Card>
   </Wrapper>
   );
 }
