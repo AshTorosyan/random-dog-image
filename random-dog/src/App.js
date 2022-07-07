@@ -27,7 +27,7 @@ const findDog = () => {
       <Card className={classes.card}>
     <Text className={classes.text}>Find Dog Image</Text>
     <br></br>
-    <Button className={classes.button} onClick={findDog}>find dog</Button>
+    <Button className={classes.button} onClick={findDog}>click me</Button>
     <br></br>
     <Image className={classes.image} width="350px" height="350px" src={dog.picture}>
     </Image>
