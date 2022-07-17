@@ -19,14 +19,20 @@
     text-transform: uppercase;
     position: absolute;
     bottom: 100px;
-    left: 715px;
+    left: 700px;
     font-family: cursive;
+    border: #fff;
+    font-size: 1.5rem;
+    border-radius: 15px;
 }
 
 .button:hover {
     color: #fff;
-    background-color: rgb(212, 15, 15);
-    
+    background-color: rgb(92, 54, 5);
+}
+
+.button:active {
+    box-shadow: 2px 3px 2px rgb(92, 54, 5) ;
 }
 
 .image {

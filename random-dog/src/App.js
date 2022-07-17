@@ -4,7 +4,8 @@ import Image from "./Components/Image/Image";
 import Text from "./Components/Text/Text";
 import Wrapper from "./UserInterface/Wrapper/Wrapper";
 import Card from "./UserInterface/Card/Card";
-import classes from "./UserInterface/Global.module.css"
+import classes from "./UserInterface/Global.module.css";
+import "./App.css";
 
 
 function App() {
